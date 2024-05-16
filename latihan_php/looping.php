@@ -7,24 +7,23 @@
     <title>Looping</title>
 </head>
 <body>
-    <h1> Looping</h1>
+    <h1>Looping</h1>
 
     <?php 
-        echo "<h3>Soal No 1 Looping 1 </h3>";
-        $start_number = 2 ;
-        while ($start_number <= 20) {
-            echo $start_number . " - I Love PHP <br>";
-            $start_number+=2;
-        }
+       echo "<h3>Soal No 1 Looping Pertama </h3>";
+       for ($i = 1; $i <= 20; $i++) {
+           if ($i % 2 == 0) {
+               echo "$i - I Love PHP<br>";
+           }
+       }
 
-        echo"<h3>Soal No 1 Looping 2 </h3>";
 
-        echo $last_number = 20 ;
-        while ($last_number >= 2) {
-            echo $last_number . " - I Love PHP <br>";
-            $last_number-=2;
-        }
-
+       echo "<h3>Soal No 1 Looping Kedua</h3>";
+   for ($i = 20; $i >= 1; $i--) {
+       if ($i % 2 == 0) {
+           echo "$i - I Love PHP<br>";
+       }
+   }
 
         
 

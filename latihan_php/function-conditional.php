@@ -19,7 +19,7 @@ echo "<h3> Soal No 1 Greetings </h3>";
 
 // Hapus komentar untuk menjalankan code!
 function greetings($nama){
-    echo "halo $nama, Selamat Datang di Sunbercode! <br>";
+    echo "halo $nama, Selamat Datang di Sanbercode! <br>";
 }
 greetings("Inka");
 greetings("Widya");
@@ -76,6 +76,9 @@ function tentukan_nilai($nilai){
 
     } else if ($nilai >= 70 && $nilai <85){
         echo "$nilai => baik <br>";
+
+    } else if ($nilai >= 60 && $nilai <85){
+        echo "$nilai => cukup <br>";
 
     }else {
         echo "$nilai => kurang <br>";
